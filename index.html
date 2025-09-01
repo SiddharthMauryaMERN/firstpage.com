@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: gilroy;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      #main {
+        height: 100px;
+        width: 100%;
+        background-color: white;
+      }
+      #nav {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 40px;
+      }
+      #nav-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #nav h3 {
+        font-size: 17px;
+        border: 1.5px solid #000;
+        font-weight: 500;
+        padding: 5px 10px;
+        border-radius: 50px;
+      }
+      #nav i {
+        font-size: 17px;
+        border: 1.5px solid #000;
+        font-weight: 500;
+        padding: 5px 10px;
+        border-radius: 50px;
+      }
+      #nav h1 {
+        font-weight: 500;
+        font-size: 22px;
+        text-transform: uppercase;
+      }
+      #button-1 {
+        padding: 7px 12px;
+        border-radius: 50px;
+        border: 1.5px solid #000;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: white;
+      }
+      #button-2 {
+        padding: 7px 12px;
+        border-radius: 50px;
+        border: 1.5px solid #000;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        color: white;
+        background-color: orangered;
+      }
+      #main > h1 {
+        font-size: 150px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+      }
+      img {
+        height: 400px;
+        width: 300px;
+        object-fit: cover;
+        object-position: right;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 25px;
+        transform: translate(-50%, -50%);
+      }
+      #img-1 {
+        transform: translate(-50%, -50%) rotate(-40deg);
+      }
+      #img-2 {
+        transform: translate(-50%, -50%) rotate(-30deg);
+      }
+      #img-3 {
+        transform: translate(-50%, -50%) rotate(-20deg);
+      }
+      #img-4 {
+        transform: translate(-50%, -50%) rotate(-10deg);
+      }
+      #button-left {
+        position: absolute;
+        bottom: 5%;
+        left: 3%;
+        font-size: 20px;
+      }
+      #button-right {
+        position: absolute;
+        bottom: 3%;
+        right: 3%;
+        font-size: 15px;
+      }
+      #icon-1 {
+        position: absolute;
+        bottom: -8.5%;
+        left: 50%;
+        right: 50%;
+        font-size: 150px;
+        font-weight: 10;
+      }
+      #icon {
+        position: absolute;
+        bottom: 5%;
+        right: 3%;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="nav">
+        <div id="nav-1">
+          <h3>Menu</h3>
+          <i class="ri-menu-4-line"></i>
+        </div>
+        <div id="nav-2">
+          <h1>Dentytech</h1>
+        </div>
+        <div id="nav-3">
+          <button id="button-1">Log In</button>
+          <button id="button-2">Sign Up</button>
+        </div>
+      </div>
+      <h1>Our Advantages</h1>
+      <img
+        id="img-1"
+        src="https://i.pinimg.com/564x/ac/58/e1/ac58e17f43518e57b452f49cce9dad0a.jpg"
+        alt=""
+      />
+      <img
+        id="img-2"
+        src="https://imgeng.jagran.com/webstories/44428/palak-tiwari-suit-looks-for-teenage-girls-1681021673.jpeg"
+        alt=""
+      />
+      <img
+        id="img-3"
+        src="https://i.pinimg.com/originals/3b/61/51/3b6151cf7b58c8cc5c7c1b83a5acb2d5.jpg"
+        alt=""
+      />
+      <img
+        id="img-4"
+        src="https://i.pinimg.com/736x/c4/a4/b1/c4a4b1bff2d49d6f3eb253452cbe4969.jpg"
+        alt=""
+      />
+      <h5 id="button-left">Your Smile, Our Pasion</h5>
+      <h5 id="button-centre">
+        <div id="icon-1">
+          <i class="ri-arrow-down-circle-line"></i>
+        </div>
+      </h5>
+      <div id="icon">
+        <i class="ri-instagram-line"></i>
+        <i class="ri-youtube-line"></i>
+        <i class="ri-facebook-circle-line"></i>
+      </div>
+      <h5 id="button-right">Best Start Up of 2024</h5>
+    </div>
+  </body>
+</html>
